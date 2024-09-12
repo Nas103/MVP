@@ -251,6 +251,14 @@ section {
 
 .btn-color-2 {
   background: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+.btn-cv {
+  background-color: black;
+  font-family:sans-serif;
+  font-weight: 400;
+  font-size: small;
 }
 
 .btn-color-2:hover {
@@ -285,6 +293,13 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  margin: 0 auto;
+}
+.intro {
+  text-align: center;
+}
+#my_pic {
+  border-radius: 50%;
 }
 
 .arrow {
@@ -294,13 +309,24 @@ section {
 }
 
 .details-container {
+  color: rgb(0, 0, 0);
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: hsl(0, 0%, 100%);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+}
+.caption {
+  background-color: black;
+}
+
+.num {
+  background-color: white;
+}
+.edu {
+  color: aliceblue;
 }
 
 .section-container {
@@ -428,5 +454,7 @@ footer {
 }
 
 footer p {
+  color: aliceblue;
   text-align: center;
+  background-color: black;
 }
