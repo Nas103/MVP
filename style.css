@@ -399,6 +399,7 @@ article .icon {
 .project-title {
   margin: 1rem;
   color: black;
+  font-size: medium;
 }
 
 .project-btn {
